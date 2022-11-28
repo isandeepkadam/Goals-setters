@@ -41,7 +41,6 @@ const Register = () => {
       ...prevState,
       [name]: value,
     }));
-    console.log(formData);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
