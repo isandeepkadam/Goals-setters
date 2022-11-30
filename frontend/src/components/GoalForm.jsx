@@ -18,7 +18,7 @@ const GoalForm = () => {
     <section className="form">
       <form onSubmit={onSumbit}>
         <div className="form-group">
-          <label htmlFor="text">Goal</label>
+          <label htmlFor="text">Add goals</label>
           <input
             type="text"
             name="text"
@@ -29,7 +29,7 @@ const GoalForm = () => {
         </div>
         <div className="form-group">
           <button className="btn btn-block" type="submit">
-            Add Goal
+            Add
           </button>
         </div>
       </form>
